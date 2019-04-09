@@ -6,7 +6,7 @@ let ball;
 // DOM OBJECTS
 let pauseButton;
 let fsButton;
-let backButton;
+// let backButton;
 // ----------------------------------------
 
 // PARAMETERS
@@ -45,9 +45,9 @@ function setup() {
   fsButton = createButton('[ ]');
   fsButton.position(50, 10);
   fsButton.mousePressed(fullScreen);
-  backButton = createButton('BACK');
-  backButton.position(90, 12);
-  backButton.mousePressed(back);
+  // backButton = createButton('BACK');
+  // backButton.position(90, 12);
+  // backButton.mousePressed(back);
 }
 
 function draw() {
@@ -129,9 +129,9 @@ function pause() {
   }
 }
 
-function back() {
-  document.location.replace('../');
-}
+// function back() {
+//   document.location.replace('../');
+// }
 // ----------------------------------------
 
 // EVENTS
